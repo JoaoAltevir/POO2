@@ -24,5 +24,11 @@ public class QuadrilateroTeste {
 		quadrilatero.calcularArea();
 		
 		quadrilatero.calcularPerimetro();
+		
+		ObraArte obra1 = new ObraArte("Cleiton");
+		
+		obra1.desenhar(quadrilatero);
+		
+		obra1.exibirObra();
 	}
 }

@@ -1,6 +1,6 @@
 package aulaPolimorfismoExerc1;
 
-public class Quadrilatero {
+public abstract class Quadrilatero {
 	protected String cor;
 	
 	public Quadrilatero(String cor) {
@@ -8,7 +8,9 @@ public class Quadrilatero {
 		this.cor = cor;
 	}
 
-	public void calcularArea() {}
+	public abstract void calcularArea();
 	
-	public void calcularPerimetro( ) {}
+	public abstract void calcularPerimetro( );
+	
+	public abstract void desenharQuadrilatero();
 }

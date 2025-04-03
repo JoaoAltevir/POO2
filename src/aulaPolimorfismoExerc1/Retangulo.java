@@ -21,5 +21,10 @@ public class Retangulo extends Quadrilatero{
 		System.out.println("O perimetro desse retangulo " + super.cor +" é: " + (this.base * 2) + (this.altura * 2));
 	}
 	
+	public void desenharQuadrilatero() {
+		System.out.println("Desenhando retangulo");
+	}
+	
+	
 	
 }

@@ -1,5 +1,7 @@
 package aulaPolimorfismoExerc1;
 
+
+
 public class Losango extends Quadrilatero{
 	private double diagonalMenor;
 	private double diagonalMaior;
@@ -17,7 +19,11 @@ public class Losango extends Quadrilatero{
 	
 	@Override
 	public void calcularPerimetro() {
-		System.out.println("O perimetro desse losango "+ super.cor +" é: " + (this.diagonalMaior * 2) + (this.diagonalMaior * 2));
+		System.out.println("O perimetro desse losango "+ super.cor +" é: " + Math.sqrt(Math.pow(this.diagonalMaior / 2, 2) + Math.pow(this.diagonalMenor / 2, 2)) * 4);
+	}
+	
+	public void desenharQuadrilatero() {
+		System.out.println("Desenhando Losango");
 	}
 	
 }

@@ -17,4 +17,8 @@ public class Quadrado extends Quadrilatero{
 	public void calcularPerimetro() {
 		System.out.println("O perímetro desse quadrado "+ super.cor + " é: " + lado * 4);
 	}
+	
+	public void desenharQuadrilatero() {
+		System.out.println("Desenhando quadrado");
+	}
 }
